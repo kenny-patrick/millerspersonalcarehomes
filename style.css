@@ -39,7 +39,7 @@ body {
 .page-body {
     flex-grow: 1;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 12rem;
     background-color: #ffe8d6;
 }
 
@@ -74,4 +74,18 @@ body {
 #facebook-logo {
     width: 24px;
     padding-top: 24px;
+}
+
+@media screen and (max-width:950px) {
+    .page-body {
+        padding-left: 8rem;
+        padding-right: 12rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .page-body {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
