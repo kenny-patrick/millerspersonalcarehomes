@@ -1,22 +1,77 @@
+html,
 body {
-    background-color: #1F2937;
-    color: #E5E7EB;
-    padding: 16px 20%;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.about p {
+    text-align: left;
+}
+
+.page-header,
+.page-footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 0 1rem;
+}
+
+.page-header {
+    background-color: #a5a58d;
+    color: #eee;
+}
+
+.page-footer {
+    text-align: center;
+    background-color: #6b705c;
+    color: #eee;
+}
+
+.page-body {
+    flex-grow: 1;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #ffe8d6;
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 48px;
+    justify-content: center;
 }
 
 .phone-contact-card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #b7b7a4;
+    color: #fff;
 }
 
-.footer {
-    background-color: #1F2937;
+.phone-contact-card-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.phone-contact-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#facebook-logo {
+    width: 24px;
+    padding-top: 24px;
 }
