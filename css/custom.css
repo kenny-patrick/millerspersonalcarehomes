@@ -21,3 +21,11 @@ main {
 .featured-number {
     font-size: 48px;
 }
+
+.justify-content-center {
+    border-radius: 25px;
+}
+
+#quality-personal-care {
+    border-radius: 50%;
+}
