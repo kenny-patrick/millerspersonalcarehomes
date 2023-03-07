@@ -17,3 +17,7 @@ main {
     height: 100%;
     opacity: 0.3;
 }
+
+.featured-number {
+    font-size: 48px;
+}
